@@ -14,7 +14,6 @@
 		9D7D52291BB3D8A0005C8AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7D52281BB3D8A0005C8AB9 /* Images.xcassets */; };
 		9D7D522C1BB3D8A0005C8AB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7D522A1BB3D8A0005C8AB9 /* LaunchScreen.xib */; };
 		9D7D52381BB3D8A0005C8AB9 /* TextForGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D52371BB3D8A0005C8AB9 /* TextForGitTests.m */; };
-		9D7D52461BB3E254005C8AB9 /* text.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D52451BB3E254005C8AB9 /* text.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 		9D7D52311BB3D8A0005C8AB9 /* TextForGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextForGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7D52361BB3D8A0005C8AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D7D52371BB3D8A0005C8AB9 /* TextForGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextForGitTests.m; sourceTree = "<group>"; };
-		9D7D52441BB3E254005C8AB9 /* text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
-		9D7D52451BB3E254005C8AB9 /* text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = text.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +85,6 @@
 				9D7D52201BB3D8A0005C8AB9 /* AppDelegate.m */,
 				9D7D52221BB3D8A0005C8AB9 /* ViewController.h */,
 				9D7D52231BB3D8A0005C8AB9 /* ViewController.m */,
-				9D7D52441BB3E254005C8AB9 /* text.h */,
-				9D7D52451BB3E254005C8AB9 /* text.m */,
 				9D7D52251BB3D8A0005C8AB9 /* Main.storyboard */,
 				9D7D52281BB3D8A0005C8AB9 /* Images.xcassets */,
 				9D7D522A1BB3D8A0005C8AB9 /* LaunchScreen.xib */,
@@ -226,7 +221,6 @@
 			files = (
 				9D7D52241BB3D8A0005C8AB9 /* ViewController.m in Sources */,
 				9D7D52211BB3D8A0005C8AB9 /* AppDelegate.m in Sources */,
-				9D7D52461BB3E254005C8AB9 /* text.m in Sources */,
 				9D7D521E1BB3D8A0005C8AB9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
