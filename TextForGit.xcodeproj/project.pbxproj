@@ -14,6 +14,7 @@
 		9D7D52291BB3D8A0005C8AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7D52281BB3D8A0005C8AB9 /* Images.xcassets */; };
 		9D7D522C1BB3D8A0005C8AB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D7D522A1BB3D8A0005C8AB9 /* LaunchScreen.xib */; };
 		9D7D52381BB3D8A0005C8AB9 /* TextForGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D52371BB3D8A0005C8AB9 /* TextForGitTests.m */; };
+		9D7D52431BB3E192005C8AB9 /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D52421BB3E192005C8AB9 /* Text.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9D7D52311BB3D8A0005C8AB9 /* TextForGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextForGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7D52361BB3D8A0005C8AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D7D52371BB3D8A0005C8AB9 /* TextForGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextForGitTests.m; sourceTree = "<group>"; };
+		9D7D52411BB3E192005C8AB9 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		9D7D52421BB3E192005C8AB9 /* Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				9D7D52201BB3D8A0005C8AB9 /* AppDelegate.m */,
 				9D7D52221BB3D8A0005C8AB9 /* ViewController.h */,
 				9D7D52231BB3D8A0005C8AB9 /* ViewController.m */,
+				9D7D52411BB3E192005C8AB9 /* Text.h */,
+				9D7D52421BB3E192005C8AB9 /* Text.m */,
 				9D7D52251BB3D8A0005C8AB9 /* Main.storyboard */,
 				9D7D52281BB3D8A0005C8AB9 /* Images.xcassets */,
 				9D7D522A1BB3D8A0005C8AB9 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				9D7D52241BB3D8A0005C8AB9 /* ViewController.m in Sources */,
 				9D7D52211BB3D8A0005C8AB9 /* AppDelegate.m in Sources */,
+				9D7D52431BB3E192005C8AB9 /* Text.m in Sources */,
 				9D7D521E1BB3D8A0005C8AB9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				9D7D523D1BB3D8A0005C8AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D7D523E1BB3D8A0005C8AB9 /* Build configuration list for PBXNativeTarget "TextForGitTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				9D7D52401BB3D8A0005C8AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
